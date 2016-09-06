@@ -77,7 +77,7 @@ ligne 4 ClientSchema   = new Schema({
 ```
 Remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier, suffixé par Schema.
 
-A partir de la ligne 5, vous devez donner le nom et le type de chacun des champs de votre modèle, sais le champs _id qui sera automatiquement ajouter par l'ODM.
+A partir de la ligne 5, vous devez donner le nom et le type de chacun des champs de votre modèle, sauf le champ _id qui sera automatiquement ajouté par l'ODM.
 
 Vous pouvez obtenir la liste des types de champs autorisés par l'ODM ici : http://mongoosejs.com/docs/schematypes.html
 ```
