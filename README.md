@@ -45,3 +45,24 @@ par exemple, si votre modèle contient deux champs, nommés nom et email, vos li
 ligne 38 resultat.nom   = req.body.nom;
 ligne 39 resultat.email = req.body.email;
 ```
+```
+ligne 53 Client.find(function(err, resultats) {
+```
+Remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier.
+```
+ligne 62 router.route('/clients/:_id')
+```
+Remplacer `clients` par le nom de votre modèle, sans majuscules et au pluriel.
+```
+ligne 66 Client.findById(req.params._id, function(err, resultat) {
+```
+Remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier.
+```
+ligne 77 Client.findById(req.params._id, function(err, resultat) {
+```
+Remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier.
+```
+ligne 83 resultat.name         = req.body.name;
+ligne 84 resultat.description  = req.body.description;
+```
+Comme pour les lignes 38 et 39, vous devez ici inscrire des lignes qui correspondent aux champs de votre fichier de modèle.
