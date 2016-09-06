@@ -19,10 +19,10 @@ Remplacer `mabasededonnee` par le nom que vous souhaitez donner à votre base da
 ligne 14 var Client        = require('./models/client');
 ```
 Pour cet exemple, nous partons du principe que nous allons travailler sur un modèle de type `Client`. De là, découle certaines pratiques et contraintes :
-- le nom de votre modèle commence par un majuscule, au singulier. Ici : `Client`
+- le nom de votre modèle commence par une majuscule, au singulier. Ici : `Client`
 - le nom de votre fichier contenant votre modèle doit être en minuscules, au singulier, ici : `./models/client.js`
 - l'ODM installé sur le serveur NODE va automatiquement créer une table découlant du nom de votre modèle, sans majuscule mais au pluriel, ici : `clients`
-- par soucis de cohérence, votre l'url de votre api pour CE modèle doit être identique au nom de votre modèle, au pluriel et sans majuscules, ici : `/clients`
+- par soucis de cohérence, l'url de votre api pour CE modèle doit être identique au nom de votre modèle, au pluriel et sans majuscules, ici : `/clients`
 
 Vous pouvez modifier la ligne 14 pour remplacer Client et client par le nom de votre modèle. Attention à bien mettre une majuscule sur le nom de la variable javascript, et à bien laisser le nom de fichier dans le require en minuscules, sans l'extension .js !
 
