@@ -66,3 +66,8 @@ ligne 83 resultat.name         = req.body.name;
 ligne 84 resultat.description  = req.body.description;
 ```
 Comme pour les lignes 38 et 39, vous devez ici inscrire des lignes qui correspondent aux champs de votre fichier de modèle.
+```
+ligne 99 Client.remove({
+```
+Remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier.
+```
