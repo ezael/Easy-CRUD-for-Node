@@ -36,7 +36,7 @@ ligne 33 router.route('/clients')
 ```
 remplacez ici `clients` par le nom de votre modele, en minuscules et au pluriel.
 ```
-ligne 37, 38 et 39
+ligne 37 var resultat = new Client();
 ```
 A la ligne 37, vous remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier. Ensuite, à partir de la liste 38, vous devez avoir un ensemble de ligne composés des noms de chmpa de votre table, identiques aux noms des champs que vous avez inscrit dans le fichier de modele de votre dossier `./models`.
 
