@@ -84,8 +84,8 @@ Vous pouvez obtenir la liste des types de champs autorisés par l'ODM ici : http
 ligne 9 module.exports = mongoose.model('Client', ClientSchema);
 ```
 Remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier.
-# pour faire fonctionner votre server
-Aller à la racine ou se trouve le fichier server.js, et entrez la commande :
+# Pour faire fonctionner votre server
+Allez à la racine ou se trouve le fichier server.js, et entrez la commande :
 ```
 npm install
 ```
