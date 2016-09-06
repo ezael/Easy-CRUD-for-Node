@@ -40,9 +40,8 @@ ligne 37, 38 et 39
 ```
 A la ligne 37, vous remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier. Ensuite, à partir de la liste 38, vous devez avoir un ensemble de ligne composés des noms de chmpa de votre table, identiques aux noms des champs que vous avez inscrit dans le fichier de modele de votre dossier `./models`.
 
-par exemple, si votre modèle contient deux chmpas, nommés nom et email, vos lignes 38 et 39 seront :
+par exemple, si votre modèle contient deux champs, nommés nom et email, vos lignes 38 et 39 seront :
 ```
 ligne 38 resultat.nom   = req.body.nom;
-ligne 38 resultat.email = req.body.email;
+ligne 39 resultat.email = req.body.email;
 ```
-
