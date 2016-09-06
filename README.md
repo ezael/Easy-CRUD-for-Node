@@ -70,4 +70,17 @@ Comme pour les lignes 38 et 39, vous devez ici inscrire des lignes qui correspon
 ligne 99 Client.remove({
 ```
 Remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier.
+## Fichier ./models/client.js
+Le nom du fichier est à remplacer par le nom de votre modèle, en minuscule et au singulier.
 ```
+ligne 4 ClientSchema   = new Schema({
+```
+Remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier, suffixé par Schema.
+
+A partir de la ligne 5, vous devez donner le nom et le type de chacun des champs de votre modèle, sais le champs _id qui sera automatiquement ajouter par l'ODM.
+
+Vous pouvez obtenir la liste des types de champs autorisés par l'ODM ici : http://mongoosejs.com/docs/schematypes.html
+```
+ligne 9 module.exports = mongoose.model('Client', ClientSchema);
+```
+Remplacez `Client` par le nom de votre modèle, avec une majuscule et au singulier.
