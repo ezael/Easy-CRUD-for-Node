@@ -20,5 +20,6 @@ ligne 14 var Client        = require('./models/client');
 ```
 Pour cet exemple, nous partons du principe que nous allons travailler sur un modèle de type `Client`. De là, découle certaines pratiques et contraintes :
 - le nom de votre modèle commence par un majuscule, au singulier. Ici : `Client`
+- le nom de votre fichier contenant votre modèle doit être en minuscules, au singulier, ici : `models/client.js`
 - l'ODM installé sur le server NODE va automatiquement créer une table découlant du nom de votre modèle, sans majuscule mais au pluriel, ici : `clients`
 - par soucis de cohérence, votre url de l'api doit être identique au nom de votre modele, au pluriel et sans majuscules, ici : `/clients`
